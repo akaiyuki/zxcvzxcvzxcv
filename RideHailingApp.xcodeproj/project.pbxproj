@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3962E7C69527982255DDA62 /* libPods-RideHailingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63234412A1A74B411F6F561B /* libPods-RideHailingApp.a */; };
+		FD03C9131F333EF100619470 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD03C9121F333EF100619470 /* ViewController.m */; };
+		FD1BC4691F25A1F100160920 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1BC4681F25A1F100160920 /* main.m */; };
+		FD1BC46C1F25A1F100160920 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1BC46B1F25A1F100160920 /* AppDelegate.m */; };
+		FD1BC4741F25A1F100160920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD1BC4731F25A1F100160920 /* Assets.xcassets */; };
+		FD1BC4821F25A1F200160920 /* RideHailingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1BC4811F25A1F200160920 /* RideHailingAppTests.m */; };
+		FD1BC48D1F25A1F200160920 /* RideHailingAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1BC48C1F25A1F200160920 /* RideHailingAppUITests.m */; };
+		FD1BC49B1F25A2BF00160920 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD1BC49A1F25A2BF00160920 /* MainViewController.xib */; };
+		FD1BC4A31F25AAFC00160920 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1BC4A21F25AAFC00160920 /* MyViewController.m */; };
+		FD1BC4A71F25C3B300160920 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1BC4A61F25C3B300160920 /* Launch Screen.storyboard */; };
+		FD1BC4AC1F25C9DF00160920 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1BC4AB1F25C9DF00160920 /* LoginViewController.m */; };
+		FD1E810B1F284D1D00499996 /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1E810A1F284D1D00499996 /* MainScreenViewController.m */; };
+		FD1E810D1F2868A100499996 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1E810C1F2868A100499996 /* MapKit.framework */; };
+		FD8670BF1F3476B400908429 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD8670BE1F3476B400908429 /* background.jpg */; };
+		FD8670C11F3476D400908429 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FD8670C01F3476D400908429 /* logo.png */; };
+		FD8670C31F3476EE00908429 /* img_2117.png in Resources */ = {isa = PBXBuildFile; fileRef = FD8670C21F3476EE00908429 /* img_2117.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD1BC47E1F25A1F200160920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD1BC45C1F25A1F100160920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD1BC4631F25A1F100160920;
+			remoteInfo = RideHailingApp;
+		};
+		FD1BC4891F25A1F200160920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD1BC45C1F25A1F100160920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD1BC4631F25A1F100160920;
+			remoteInfo = RideHailingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05980EB14924BBC95D61CC74 /* Pods-RideHailingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideHailingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RideHailingApp/Pods-RideHailingApp.release.xcconfig"; sourceTree = "<group>"; };
+		33A24ADB68A6E5CD0C0D9587 /* Pods-RideHailingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideHailingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RideHailingApp/Pods-RideHailingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		63234412A1A74B411F6F561B /* libPods-RideHailingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RideHailingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD03C9111F333EF100619470 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD03C9121F333EF100619470 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD1BC4641F25A1F100160920 /* RideHailingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideHailingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1BC4681F25A1F100160920 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD1BC46A1F25A1F100160920 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD1BC46B1F25A1F100160920 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD1BC4731F25A1F100160920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD1BC4781F25A1F100160920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD1BC47D1F25A1F200160920 /* RideHailingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RideHailingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1BC4811F25A1F200160920 /* RideHailingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RideHailingAppTests.m; sourceTree = "<group>"; };
+		FD1BC4831F25A1F200160920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD1BC4881F25A1F200160920 /* RideHailingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RideHailingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1BC48C1F25A1F200160920 /* RideHailingAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RideHailingAppUITests.m; sourceTree = "<group>"; };
+		FD1BC48E1F25A1F200160920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD1BC49A1F25A2BF00160920 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		FD1BC4A11F25AAFC00160920 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		FD1BC4A21F25AAFC00160920 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		FD1BC4A61F25C3B300160920 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FD1BC4AA1F25C9DF00160920 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FD1BC4AB1F25C9DF00160920 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FD1E81091F284D1D00499996 /* MainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		FD1E810A1F284D1D00499996 /* MainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
+		FD1E810C1F2868A100499996 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FD8670BE1F3476B400908429 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		FD8670C01F3476D400908429 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FD8670C21F3476EE00908429 /* img_2117.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_2117.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD1BC4611F25A1F100160920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1E810D1F2868A100499996 /* MapKit.framework in Frameworks */,
+				F3962E7C69527982255DDA62 /* libPods-RideHailingApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1BC47A1F25A1F200160920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1BC4851F25A1F200160920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0048206F1BCA0E1C7C6B39E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD1E810C1F2868A100499996 /* MapKit.framework */,
+				63234412A1A74B411F6F561B /* libPods-RideHailingApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD13F51561C1BAFAB791643B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33A24ADB68A6E5CD0C0D9587 /* Pods-RideHailingApp.debug.xcconfig */,
+				05980EB14924BBC95D61CC74 /* Pods-RideHailingApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD1BC45B1F25A1F100160920 = {
+			isa = PBXGroup;
+			children = (
+				FD1BC4661F25A1F100160920 /* RideHailingApp */,
+				FD1BC4801F25A1F200160920 /* RideHailingAppTests */,
+				FD1BC48B1F25A1F200160920 /* RideHailingAppUITests */,
+				FD1BC4651F25A1F100160920 /* Products */,
+				DD13F51561C1BAFAB791643B /* Pods */,
+				0048206F1BCA0E1C7C6B39E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD1BC4651F25A1F100160920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD1BC4641F25A1F100160920 /* RideHailingApp.app */,
+				FD1BC47D1F25A1F200160920 /* RideHailingAppTests.xctest */,
+				FD1BC4881F25A1F200160920 /* RideHailingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD1BC4661F25A1F100160920 /* RideHailingApp */ = {
+			isa = PBXGroup;
+			children = (
+				FD8670C21F3476EE00908429 /* img_2117.png */,
+				FD8670C01F3476D400908429 /* logo.png */,
+				FD8670BE1F3476B400908429 /* background.jpg */,
+				FD1BC46A1F25A1F100160920 /* AppDelegate.h */,
+				FD1BC46B1F25A1F100160920 /* AppDelegate.m */,
+				FD1BC4731F25A1F100160920 /* Assets.xcassets */,
+				FD1BC4781F25A1F100160920 /* Info.plist */,
+				FD1BC4671F25A1F100160920 /* Supporting Files */,
+				FD1BC49A1F25A2BF00160920 /* MainViewController.xib */,
+				FD1BC4A11F25AAFC00160920 /* MyViewController.h */,
+				FD1BC4A21F25AAFC00160920 /* MyViewController.m */,
+				FD1BC4A61F25C3B300160920 /* Launch Screen.storyboard */,
+				FD1BC4AA1F25C9DF00160920 /* LoginViewController.h */,
+				FD1BC4AB1F25C9DF00160920 /* LoginViewController.m */,
+				FD1E81091F284D1D00499996 /* MainScreenViewController.h */,
+				FD1E810A1F284D1D00499996 /* MainScreenViewController.m */,
+				FD03C9111F333EF100619470 /* ViewController.h */,
+				FD03C9121F333EF100619470 /* ViewController.m */,
+			);
+			path = RideHailingApp;
+			sourceTree = "<group>";
+		};
+		FD1BC4671F25A1F100160920 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD1BC4681F25A1F100160920 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD1BC4801F25A1F200160920 /* RideHailingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD1BC4811F25A1F200160920 /* RideHailingAppTests.m */,
+				FD1BC4831F25A1F200160920 /* Info.plist */,
+			);
+			path = RideHailingAppTests;
+			sourceTree = "<group>";
+		};
+		FD1BC48B1F25A1F200160920 /* RideHailingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD1BC48C1F25A1F200160920 /* RideHailingAppUITests.m */,
+				FD1BC48E1F25A1F200160920 /* Info.plist */,
+			);
+			path = RideHailingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD1BC4631F25A1F100160920 /* RideHailingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD1BC4911F25A1F200160920 /* Build configuration list for PBXNativeTarget "RideHailingApp" */;
+			buildPhases = (
+				79E8121D806D19CC3D29A489 /* [CP] Check Pods Manifest.lock */,
+				FD1BC4601F25A1F100160920 /* Sources */,
+				FD1BC4611F25A1F100160920 /* Frameworks */,
+				FD1BC4621F25A1F100160920 /* Resources */,
+				3FFE07066B5A2AC75F66321A /* [CP] Embed Pods Frameworks */,
+				AFED7D982E6156877C0F7B7C /* [CP] Copy Pods Resources */,
+				FDE99B4F1F41576C0088987F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RideHailingApp;
+			productName = RideHailingApp;
+			productReference = FD1BC4641F25A1F100160920 /* RideHailingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD1BC47C1F25A1F200160920 /* RideHailingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD1BC4941F25A1F200160920 /* Build configuration list for PBXNativeTarget "RideHailingAppTests" */;
+			buildPhases = (
+				FD1BC4791F25A1F200160920 /* Sources */,
+				FD1BC47A1F25A1F200160920 /* Frameworks */,
+				FD1BC47B1F25A1F200160920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD1BC47F1F25A1F200160920 /* PBXTargetDependency */,
+			);
+			name = RideHailingAppTests;
+			productName = RideHailingAppTests;
+			productReference = FD1BC47D1F25A1F200160920 /* RideHailingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD1BC4871F25A1F200160920 /* RideHailingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD1BC4971F25A1F200160920 /* Build configuration list for PBXNativeTarget "RideHailingAppUITests" */;
+			buildPhases = (
+				FD1BC4841F25A1F200160920 /* Sources */,
+				FD1BC4851F25A1F200160920 /* Frameworks */,
+				FD1BC4861F25A1F200160920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD1BC48A1F25A1F200160920 /* PBXTargetDependency */,
+			);
+			name = RideHailingAppUITests;
+			productName = RideHailingAppUITests;
+			productReference = FD1BC4881F25A1F200160920 /* RideHailingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD1BC45C1F25A1F100160920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "AV Dev";
+				TargetAttributes = {
+					FD1BC4631F25A1F100160920 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8VDPP9J9NJ;
+						ProvisioningStyle = Automatic;
+					};
+					FD1BC47C1F25A1F200160920 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD1BC4631F25A1F100160920;
+					};
+					FD1BC4871F25A1F200160920 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD1BC4631F25A1F100160920;
+					};
+				};
+			};
+			buildConfigurationList = FD1BC45F1F25A1F100160920 /* Build configuration list for PBXProject "RideHailingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD1BC45B1F25A1F100160920;
+			productRefGroup = FD1BC4651F25A1F100160920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD1BC4631F25A1F100160920 /* RideHailingApp */,
+				FD1BC47C1F25A1F200160920 /* RideHailingAppTests */,
+				FD1BC4871F25A1F200160920 /* RideHailingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD1BC4621F25A1F100160920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8670BF1F3476B400908429 /* background.jpg in Resources */,
+				FD1BC49B1F25A2BF00160920 /* MainViewController.xib in Resources */,
+				FD8670C31F3476EE00908429 /* img_2117.png in Resources */,
+				FD8670C11F3476D400908429 /* logo.png in Resources */,
+				FD1BC4A71F25C3B300160920 /* Launch Screen.storyboard in Resources */,
+				FD1BC4741F25A1F100160920 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1BC47B1F25A1F200160920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1BC4861F25A1F200160920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FFE07066B5A2AC75F66321A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RideHailingApp/Pods-RideHailingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79E8121D806D19CC3D29A489 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFED7D982E6156877C0F7B7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RideHailingApp/Pods-RideHailingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE99B4F1F41576C0088987F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 89bc3dbbfe1de6c6da190923ba110735ea54a999 91edf92cf257ca6e2261806ebc664e75af9a6df010493ac7cb8b00497f0282d2";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD1BC4601F25A1F100160920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD03C9131F333EF100619470 /* ViewController.m in Sources */,
+				FD1BC46C1F25A1F100160920 /* AppDelegate.m in Sources */,
+				FD1BC4A31F25AAFC00160920 /* MyViewController.m in Sources */,
+				FD1E810B1F284D1D00499996 /* MainScreenViewController.m in Sources */,
+				FD1BC4691F25A1F100160920 /* main.m in Sources */,
+				FD1BC4AC1F25C9DF00160920 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1BC4791F25A1F200160920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1BC4821F25A1F200160920 /* RideHailingAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1BC4841F25A1F200160920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1BC48D1F25A1F200160920 /* RideHailingAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD1BC47F1F25A1F200160920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD1BC4631F25A1F100160920 /* RideHailingApp */;
+			targetProxy = FD1BC47E1F25A1F200160920 /* PBXContainerItemProxy */;
+		};
+		FD1BC48A1F25A1F200160920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD1BC4631F25A1F100160920 /* RideHailingApp */;
+			targetProxy = FD1BC4891F25A1F200160920 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FD1BC48F1F25A1F200160920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD1BC4901F25A1F200160920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD1BC4921F25A1F200160920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A24ADB68A6E5CD0C0D9587 /* Pods-RideHailingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8VDPP9J9NJ;
+				INFOPLIST_FILE = RideHailingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.av.dev.RideHailingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD1BC4931F25A1F200160920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05980EB14924BBC95D61CC74 /* Pods-RideHailingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8VDPP9J9NJ;
+				INFOPLIST_FILE = RideHailingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.av.dev.RideHailingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD1BC4951F25A1F200160920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RideHailingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.av.dev.RideHailingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RideHailingApp.app/RideHailingApp";
+			};
+			name = Debug;
+		};
+		FD1BC4961F25A1F200160920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RideHailingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.av.dev.RideHailingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RideHailingApp.app/RideHailingApp";
+			};
+			name = Release;
+		};
+		FD1BC4981F25A1F200160920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RideHailingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.av.dev.RideHailingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RideHailingApp;
+			};
+			name = Debug;
+		};
+		FD1BC4991F25A1F200160920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RideHailingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.av.dev.RideHailingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RideHailingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD1BC45F1F25A1F100160920 /* Build configuration list for PBXProject "RideHailingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1BC48F1F25A1F200160920 /* Debug */,
+				FD1BC4901F25A1F200160920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD1BC4911F25A1F200160920 /* Build configuration list for PBXNativeTarget "RideHailingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1BC4921F25A1F200160920 /* Debug */,
+				FD1BC4931F25A1F200160920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD1BC4941F25A1F200160920 /* Build configuration list for PBXNativeTarget "RideHailingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1BC4951F25A1F200160920 /* Debug */,
+				FD1BC4961F25A1F200160920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD1BC4971F25A1F200160920 /* Build configuration list for PBXNativeTarget "RideHailingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1BC4981F25A1F200160920 /* Debug */,
+				FD1BC4991F25A1F200160920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD1BC45C1F25A1F100160920 /* Project object */;
+}
