@@ -8,4 +8,5 @@ pod 'GooglePlacePicker'
 pod 'GoogleMaps'
 pod 'Fabric'
 pod 'Crashlytics'
+pod 'IQKeyboardManager'
 end
